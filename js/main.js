@@ -41,4 +41,13 @@
 // true=toq songa
 // false= juft songa
 
+// ================================================================================================================
+// 5-masla
+//  masla salasharti:3ga bolinDIMI 
+
+// let son3=+prompt(`son kiritilsin`)
+// console.log(son3 % 3 ===0);
+
+// bolinsa= true
+// bolinmasa= false
 
