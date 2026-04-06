@@ -34,9 +34,9 @@
 // 4-masla
 // masala sharti:son toq yoki juft ekanligini aniqlan
 
-let toqJUft=+prompt(`ixtiyori son kiritilsin`)
-let natija=toqJUft % 2 ===1
-console.log(natija);
+// let toqJUft=+prompt(`ixtiyori son kiritilsin`)
+// let natija=toqJUft % 2 ===1
+// console.log(natija);
 
 // true=toq songa
 // false= juft songa
