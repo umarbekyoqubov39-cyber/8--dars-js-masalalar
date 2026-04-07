@@ -5,7 +5,7 @@
 // foydalanovchi ikki xonalai son kiriti sen uni onliklar xonasida gi sonini oib console log ga chiqar
 
 // let sonUser=+prompt(`ixtiyori ikki xonali soni kiriting`)
-// let onlik=sonUser/10 |0
+// let onlik=Math.floor(sonUser / 10 )
 // console.log(onlik);
 
 // ==============================================================================================================
@@ -14,10 +14,10 @@
 //  Har bir vaqt quyidagicha beriladi:
 // H M S
 
-// let h1=20,m1=1,s1=60
-// let h2=10,m2=2,s2=120
-// let t1= h1 * 7200 + m1 * 60 + s1
-// let t2=h2 * 3600 +m2  * 60 + s2
+// let h1=20
+// let h2=10
+// let t1= h1 * 60 * 60
+// let t2=h2 * 60 *60 
 // let farq=t1-t2
 // console.log(farq);
 
@@ -27,7 +27,7 @@
 // masala sharti:senda bita musbat son bor va sen buni 17% olib log g CHIQAR
 
 // let son=40
-// let foiz=son % 17
+// let foiz=(son * 17) / 100 
 // console.log(foiz);
 
 // ================================================================================================================
@@ -35,19 +35,18 @@
 // masala sharti:son toq yoki juft ekanligini aniqlan
 
 // let toqJUft=+prompt(`ixtiyori son kiritilsin`)
-// let natija=toqJUft % 2 ===1
-// console.log(natija);
+// console.log((toqJUft % 2 ===0 && "juft" )||
+// (toqJUft % 2 !=0 && "toq"));
 
-// true=toq songa
-// false= juft songa
+
+
 
 // ================================================================================================================
 // 5-masla
 //  masla salasharti:3ga bolinDIMI 
 
 // let son3=+prompt(`son kiritilsin`)
-// console.log(son3 % 3 ===0);
+// console.log((son3 % 3 ===0 && "yes") || ((son3 % 3 !==0 && "no") ));
 
-// bolinsa= true
-// bolinmasa= false
+
 
